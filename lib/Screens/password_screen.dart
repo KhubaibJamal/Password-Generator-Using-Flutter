@@ -109,8 +109,6 @@ class _PasswordScreenState extends State<PasswordScreen> {
         child: Padding(
           padding: const EdgeInsets.all(10.0),
           child: Column(
-            // mainAxisAlignment: MainAxisAlignment.center,
-            // crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               SizedBox(height: MediaQuery.of(context).size.height * .06),
               Card(
