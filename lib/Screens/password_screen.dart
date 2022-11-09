@@ -97,7 +97,6 @@ class _PasswordScreenState extends State<PasswordScreen> {
   void buttonMethod() {
     final password = generatedPassword();
     showPassword = password;
-    // passwordController.text = password;
     setState(() {});
     print(password);
   }
